@@ -5,6 +5,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 65px 0;
+  position: relative;
+  z-index: 2;
 }
 .nav {
   display: flex;

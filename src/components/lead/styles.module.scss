@@ -4,6 +4,8 @@
   min-height: 450px;
   @include Grid;
   align-items: center;
+  position: relative;
+  z-index: 2;
 }
 .left {
   grid-column: 1;
