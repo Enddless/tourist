@@ -1,0 +1,18 @@
+//  PRIMARY SETTINGS
+$background-primary: #0b1d26;
+$color-primary: #ffffff;
+
+$font-family-secondary: 'Chronicle Display', sans-serif;
+$font-family-primary: 'Gilroy-Bold', sans-serif;
+// font-family: 'Gilroy-Heavy', sans-serif;
+// font-family: 'Gilroy-Light', sans-serif;
+// font-family: 'Gilroy-Medium', sans-serif;
+// font-family: 'Gilroy-Regular', sans-serif;
+
+$accent-color: #fbd784;
+
+@mixin Grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: 32px;
+}

@@ -1,0 +1,14 @@
+@import '../../main.module.scss';
+
+.logo {
+  font-family: $font-family-secondary;
+  font-size: 32px;
+  letter-spacing: 1px;
+  line-height: 38px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.logo:hover {
+  color: $accent-color;
+  transition: all 750ms ease;
+}
