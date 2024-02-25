@@ -27,7 +27,6 @@ function Content() {
             start: 'top bottom-=100',
             toggleActions: 'play none none reverse',
             scrub: 0.2
-            // markers: true
           }
         }
       );
