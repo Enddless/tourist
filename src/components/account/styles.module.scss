@@ -1,0 +1,21 @@
+@import '../../main.module.scss';
+
+.account {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  cursor: pointer;
+
+  svg {
+    fill: white;
+  }
+}
+
+.account:hover {
+  color: $accent-color;
+  transition: all 750ms ease;
+  svg {
+    fill: $accent-color;
+    transition: all 750ms ease;
+  }
+}
