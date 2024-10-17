@@ -54,7 +54,7 @@ function Content() {
             </div>
 
             <div className={css.photo}>
-              <img src={step.image} alt={step.title} />
+              <img src={step.image} alt={step.title} loading='lazy' />
             </div>
           </div>
         );
