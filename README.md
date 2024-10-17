@@ -1,8 +1,34 @@
-# React + Vite
+# Tourist
+![Tourist photo](/main_photo4.jpg)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Содержание
+- [Общая информация](#общая-информация)
+- [Структура проекта](#структура-проекта)
+- [Используемые технологии](#используемые-технологии)
+- [Контакты](#контакты)
 
-Currently, two official plugins are available:
+## Общая информация
+Вёрстка блога туриста, разработанного с использованием React и Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Структура проекта
+📁 public/   
+📁 src/   
+├── assets/  
+├── components/  
+├── pages/  
+├── styles/  
+main.jsx  
+.eslint.cjs  
+.prettierrc  
+index.html
+ 
+## Используемые технологии
+- Prettier, Eslint – для форматирования и анализа написанного на JavaScript кода;
+- для написания чистого и валидного CSS-кода - препроцессор Scss;
+- для создания плавных анимаций элементов использовался Gsap.
+
+## Контакты
+Если у вас есть вопросы или предложения, вы можете связаться со мной:
+
+- email: [iv_diana@bk.ru](mailto:iv_diana@bk.ru)
+- telegram: [@endless_moonlight_on_monday](https://t.me/endless_moonlight_on_monday)
