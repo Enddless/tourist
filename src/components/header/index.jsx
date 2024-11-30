@@ -1,24 +1,38 @@
-import css from './styles.module.scss';
+import styled from 'styled-components';
 import Logo from '../logo/index';
-import Account from '../account';
 import Lead from '../lead/index';
+
+const Container = styled.div`
+  max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+  margin-inline: auto;
+  padding-inline: var(--container-padding-x);
+  height: 100svh;
+  display: flex;
+  flex-direction: column;
+`;
+const HeaderContainer = styled.header`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 35px 0;
+
+  position: relative;
+  z-index: 2;
+
+  @include mobile {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+`;
 
 function Header() {
   return (
-    <>
-      <header className={css.header}>
+    <Container>
+      <HeaderContainer>
         <Logo />
-        <nav className={css.navigation}>
-          <ul className={css.nav}>
-            <li className={css.link}>Equipment</li>
-            <li className={css.link}>About us</li>
-            <li className={css.link}>Blog</li>
-          </ul>
-        </nav>
-        <Account />
-      </header>
+      </HeaderContainer>
       <Lead />
-    </>
+    </Container>
   );
 }
 
